@@ -9,5 +9,8 @@ func main() {
 	//language_study.Switch_stude()
 	//language_study.For_study()
 	//function_study.GoFuc1()
-	function_study.String_study()
+	//function_study.String_study()
+	//language_study.Slice_study()
+	//language_study.Map_study()
+	function_study.Type_study()
 }
