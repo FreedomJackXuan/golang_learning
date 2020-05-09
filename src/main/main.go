@@ -1,5 +1,7 @@
 package main
 
+import "awesomeProject/src/function_study"
+
 func main() {
 	//function_study.PersonTest()
 	//function_study.Method_study()
@@ -13,4 +15,6 @@ func main() {
 	//function_study.Type_study()
 
 	//language_study.Defer_study()
+	//function_study.Method_1()
+	function_study.Interfase_Study()
 }
