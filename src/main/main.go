@@ -1,8 +1,6 @@
 package main
 
-import (
-	"golang_learning/src/net_study"
-)
+import "golang_learning/src/language_study"
 
 func main() {
 	//var s, sep string
@@ -20,8 +18,10 @@ func main() {
 	//language_study.For_study()
 	//function_study.GoFuc1()
 	//function_study.String_study()
-	//language_study.Slice_study()
+	language_study.Slice_study()
 	//language_study.Map_study()
+	//language_study.Echo1()
+
 	//function_study.Type_study()
 
 	//language_study.Defer_study()
@@ -33,5 +33,5 @@ func main() {
 	//language_study.Scanner_Study()
 	//file_study.ReadFile1()
 	//file_study.File_os()
-	net_study.NetStudy2()
+	//net_study.NetStudy2()
 }

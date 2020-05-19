@@ -26,4 +26,12 @@ func Map_study() {
 	}
 	m2[1].name = "aaa"
 	fmt.Println(m2[1].name)
+
+	m3 := map[string][]string{}
+	var s3 []string
+	s3 = append(s3, "1")
+	s3 = append(s3, "2","3","5")
+	m3["1"] = s3
+	fmt.Println(m3)
+
 }
