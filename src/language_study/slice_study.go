@@ -52,4 +52,19 @@ func Slice_study() {
 	s5 := []int{1,2,3,4,5}
 	s5 = appendIntTest(s5,10)
 	fmt.Println(s5[:])
+
+
+	s := make([]int,0, 5)
+	n := 0
+	s = s[:n+1]
+	s[n] = 1
+	fmt.Println(s)
+	n = 2
+	s = s[:n+1]
+	s[n] = 2
+	fmt.Println(s)
+	l := len(s)
+	p := s[l - 1]
+	s = s[: n-1]
+	fmt.Println(l, p, s)
 }

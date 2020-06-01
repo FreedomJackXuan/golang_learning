@@ -1,7 +1,5 @@
 package main
 
-import "golang_learning/src/language_study"
-
 func main() {
 	//var s, sep string
 	//fmt.Println(len(os.Args))
@@ -18,7 +16,7 @@ func main() {
 	//language_study.For_study()
 	//function_study.GoFuc1()
 	//function_study.String_study()
-	language_study.Slice_study()
+	//language_study.Slice_study()
 	//language_study.Map_study()
 	//language_study.Echo1()
 
