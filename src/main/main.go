@@ -1,5 +1,7 @@
 package main
 
+import "golang_learning/src/language_study"
+
 func main() {
 	//var s, sep string
 	//fmt.Println(len(os.Args))
@@ -32,4 +34,5 @@ func main() {
 	//file_study.ReadFile1()
 	//file_study.File_os()
 	//net_study.NetStudy2()
+	language_study.SliceStudy2()
 }
